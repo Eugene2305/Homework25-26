@@ -1,0 +1,25 @@
+.Depp{
+border: 1rem solid darkcyan;
+margin-right: 20px;
+}
+.Pirate{
+    margin-left: 15px;
+    width: 600px;
+    height: 300px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: darkslategray;
+    margin: 10px;
+}
+.recipe{
+   margin: 20px;
+    background-image: url(./media/simeynyy-borshch_sitewebukr-1000x600.jpg);
+    background-repeat: repeat-y;
+    width: 100%;
+    height: auto;
+    color: white;
+}
