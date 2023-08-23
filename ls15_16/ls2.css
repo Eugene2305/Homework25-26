@@ -1,0 +1,30 @@
+.k{
+    width: 100px;
+    height: 100px;
+    background-color: #0000ff;
+    transition: 2000ms;
+}
+.k:hover{
+    background-color: aqua;
+    font-size: 10px;
+    width: 150px;
+    transform: scale(1.5);
+    transform:  translate(100px, 200px);
+    transform: rotate(360deg);
+}
+/* @keyframe f {
+    from{
+        width: 100px;
+        height: 100px;
+        background-color: #0000ff;
+        transition: 2000ms;
+    }
+    to{
+        background-color: aqua;
+        font-size: 10px;
+        width: 150px;
+        transform: scale(1.5);
+        transform:  translate(100px, 200px);
+        transform: rotate(360deg);
+    }
+} */
