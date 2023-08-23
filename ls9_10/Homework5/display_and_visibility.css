@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+*{
+    display: flex;
+    margin: 15px;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    visibility: collapse;
+}
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    visibility: visible;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    border-radius: 50px;
+    visibility: hidden;
+}
+.circle2{
+    width: 100px;
+    height: 100px;
+    background-color: mediumslateblue;
+    border-radius: 50px;   
+    visibility: initial;
+}

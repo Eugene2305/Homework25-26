@@ -1,0 +1,40 @@
+/* navbar */
+
+div{
+    border: 2px solid blueviolet;
+    padding: 20px;
+}
+
+a{
+    border: 2px solid blue;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: yellow ;
+    margin: 20px;
+}
+hr{
+    margin: 20px;
+}
+
+/* section */
+section div{
+    border: 5px solid blueviolet;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 25px;
+    float: left;
+    width: 350px;
+    height: 350px;
+    line-height: 1.15em;
+}
+h2{
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 7ex;
+   
+}
+p{
+    padding: 5px;
+}

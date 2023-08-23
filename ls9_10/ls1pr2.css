@@ -1,0 +1,20 @@
+.text{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    /* overflow:  auto; */
+    overflow-y: auto;
+    overflow-x: scroll;
+    margin: 10px;
+}
+.d{
+ width: 120px;
+}
+.cycle{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50px;
+    /* display: none; */
+    visibility: visible ;
+}

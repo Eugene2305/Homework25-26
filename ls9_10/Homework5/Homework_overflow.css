@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+}
+*{
+    display: inline-block;
+    margin: 15px;
+}
+.first{
+    width: 250px;
+    height: 150px;
+    border: 2px solid lightgreen;
+    overflow-y: scroll;
+}
+.second{
+    width: 150px;
+    height: 250px;
+    border: 2px solid lightgreen;
+    overflow-x: scroll;
+}
+.third{
+    width: 150px;
+    height: 150px;
+    border: 2px solid lightgreen;
+    overflow-x: scroll;
+    overflow-y: auto;
+}

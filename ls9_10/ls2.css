@@ -1,0 +1,29 @@
+/* header */
+header{
+    min-height: 80px;
+}
+header h1{
+    float:left ;
+}
+header div{
+    margin-left: calc(100% - 200px);
+}
+/* navbar */
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    margin: 5px 15px;
+}
+/* section */
+.list{
+    float: left;
+    border: 2px solid red;
+    padding: 10px 15px;
+    width: 20%;
+}
+
+.content{
+    margin-left: 20px;
+}

@@ -1,0 +1,15 @@
+body{
+    background-color: blanchedalmond;
+}
+div{
+    border: 4mm ridge rgba(211, 220, 50, .6);;
+    float: left;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgba(211, 220, 50, .6);
+}
+p{
+    color: blue;
+    font-weight: 800;
+    
+}
