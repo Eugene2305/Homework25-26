@@ -1,0 +1,38 @@
+.fl {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction:column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    height: 100px;
+    flex-shrink: 1;
+  }
+  .cb1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* order: 2; */
+    
+    /* flex-basis: 100px; height:300px; */
+  }
+  .cb2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    /* align-self: center; */
+    /* order: 1; */
+  }
+  .cb3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* align-self: flex-end; */
+    /* order: 4; */
+  }
+  .cb4 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    /* align-self: stretch; */
+    /* order: 3; */
+  }

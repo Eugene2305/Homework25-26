@@ -1,0 +1,216 @@
+.main {
+  width: 90%;
+  height: 1000px;
+  border: 2px solid red;
+}
+
+/* FIRST */
+.pr {
+  background-color: violet;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.white {
+  margin: 75px;
+  width: 80%;
+  height: 150px;
+  background-color: white;
+  align-self: center;
+  display: flex;
+}
+.blk {
+  width: 80%;
+  height: 50%;
+  background-color: black;
+  align-self: center;
+  margin: 150px;
+}
+
+/* SECOND */
+.grey {
+  height: 200px;
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.grey span {
+  position: absolute;
+  top: 310px;
+  left: 750px;
+}
+.r1 {
+  width: 25%;
+  height: 150px;
+  background-color: red;
+}
+.og2 {
+  width: 25%;
+  height: 150px;
+  background-color: orange;
+}
+.bl3 {
+  width: 25%;
+  height: 150px;
+  background-color: lightskyblue;
+}
+.ylw4 {
+  width: 25%;
+  height: 150px;
+  background-color: yellow;
+}
+
+/* THIRD */
+
+.third {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+/* FR */
+.fr {
+  width: 33%;
+  height: 500px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.orange {
+  margin-top: 80px;
+  width: 60%;
+  height: 80%;
+  background-color: orange;
+  text-align: center;
+}
+.pink {
+  width: 50%;
+  height: 80%;
+  background-color: pink;
+  position: relative;
+  top: 60px;
+}
+.yellow {
+  width: 50%;
+  height: 80%;
+  background-color: yellow;
+  position: relative;
+  left: 145px;
+  bottom: 260px;
+}
+
+/* SC */
+.sc {
+  width: 35%;
+  height: 500px;
+  background-color: lightblue;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column; */
+}
+.secr {
+  height: 80%;
+  width: 35%;
+  background-color: red;
+  position: relative;
+  top: 80px;
+}
+.secylw {
+  width: 31%;
+  height: 50px;
+  background-color: yellow;
+  position: relative;
+  left: 179px;
+  bottom: 320px;
+}
+.secorg {
+  width: 50%;
+  height: 352px;
+  background-color: orange;
+  position: relative;
+  top: 30px;
+}
+.secylw2 {
+  width: 50%;
+  height: 290px;
+  background-color: yellow;
+  position: relative;
+  left: 78px;
+  bottom: 322px;
+}
+.secr2 {
+  width: 50%;
+  height: 65px;
+  background-color: red;
+  position: relative;
+  left: 78px;
+  bottom: 324px;
+}
+.secorg2 {
+  width: 34%;
+  height: 80%;
+  background-color: orange;
+  position: relative;
+  left: 336px;
+  bottom: 370px;
+}
+
+/* TH  */
+.th {
+  width: 35%;
+  height: 500px;
+  background-color: darkblue;
+  text-align: center;
+}
+.thbl {
+  background-color: aqua;
+  height: 150px;
+  width: 35%;
+  position: relative;
+  top: 330px;
+}
+.thylw {
+  background-color: yellow;
+  width: 32%;
+  height: 200px;
+  position: relative;
+  left: 175px;
+  top: 65px;
+}
+.thorg {
+  background-color: orange;
+  height: 200px;
+  width: 34%;
+  position: relative;
+  left: 338px;
+  bottom: 250px;
+}
+.txt1 {
+  width: 100px;
+  height: 25px;
+  border: black 1px solid;
+  color: lightskyblue;
+  background-color: black;
+  position: relative;
+  top: 130px;
+  font-size: 18px;
+}
+.txt2 {
+  width: 100px;
+  height: 25px;
+  border: black 1px solid;
+  color: lightskyblue;
+  background-color: black;
+  position: relative;
+  left: 72px;
+  top: 25px;
+  font-size: 18px;
+}
