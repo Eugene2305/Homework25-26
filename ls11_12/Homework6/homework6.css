@@ -1,0 +1,125 @@
+body{
+    background-color: beige;
+}
+/* HEADER */
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    border: 3px solid red;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav div{
+    border: 3px solid red;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 5px 10px;
+}
+*{
+    font-size: 20px;
+}
+/* Main Content */
+.bl{
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    border: 3px solid red;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.first h3{
+    text-align: center;
+}
+.second{
+    border: 3px solid red;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.second h3{
+    text-align: center;
+}
+.bl2{
+   display: flex;
+   justify-content: space-around;
+}
+.bl2 p{
+    border: 3px solid red;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+/* Footer */
+footer{
+    display: flex;
+   justify-content: center;
+}
+footer p{
+    border: 3px solid red;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+/* @media screen */
+
+@media screen and (min-width: 270px) and (max-width: 410px) {
+  ul, nav, .bl2 {
+    display: inherit;
+  }
+  main div{
+    flex-basis: 100%;
+  }
+}
+@media screen and (min-width: 410px) and (max-width: 510px) {
+*{
+    font-size: 14px;
+}
+ul{
+    display: inline;
+}
+}
+@media screen and (min-width: 510px) and (max-width: 768px) {
+ *{
+    font-size: 18px;
+ }
+    ul{
+    display: inline;
+    text-align: center;
+ }
+ .bl2 p{
+    padding: 15px;
+ }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    ul li{
+        text-align: center;
+    }
+    .bl2 p{
+        padding: 15px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+   .bl2 p{
+    padding: 15px;
+   }
+}
+@media screen and (min-width: 1440px) {
+    header, nav, main, footer {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+
