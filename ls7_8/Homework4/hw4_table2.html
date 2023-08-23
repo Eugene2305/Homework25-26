@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hw4_3dtable</title>
+  </head>
+  <body style="background-color: lavender">
+    <style>
+      .tbl3 tbody td:nth-child(2n + 1) {
+        color: brown;
+      }
+
+      h2,
+      p,
+      span {
+        color: magenta;
+      }
+      div ~ p {
+        font-size: 24px;
+        color: dimgray;
+      }
+      #sp {
+        color: dodgerblue;
+      }
+      img[alt] {
+        border: dashed grey 10px;
+      }
+    </style>
+    <h2>Third table</h2>
+    <table border="1" class="tbl3">
+      <thead>
+        <tr>
+          <th>Lorem, ipsum.</th>
+          <td>Lorem, ipsum dolor.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem ipsum dolor sit.</td>
+          <td>Lorem, ipsum.</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lorem, ipsum dolor.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem ipsum dolor sit.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum dolor.</td>
+        </tr>
+        <tr>
+          <td>Lorem, ipsum dolor.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem ipsum dolor sit.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum dolor.</td>
+        </tr>
+        <tr>
+          <td>Lorem, ipsum dolor.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem ipsum dolor sit.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem, ipsum dolor.</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Lorem, ipsum.</th>
+          <td>Lorem ipsum dolor sit.</td>
+          <td>Lorem, ipsum dolor.</td>
+          <td>Lorem, ipsum.</td>
+          <td>Lorem ipsum dolor sit.</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr />
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+      perspiciatis ipsam doloribus harum! Numquam, vitae.
+    </p>
+    <span>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus iusto
+      atque alias ipsa labore debitis perspiciatis porro nostrum nihil, rem
+      repudiandae dolorum inventore? Obcaecati doloribus ipsam odio accusamus
+      nam dolor! Culpa sint nihil laudantium accusamus!
+    </span>
+
+    <hr />
+
+    <div>Lorem ipsum dolor sit.</div>
+    <span id="sp">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </span>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, quos?
+    </p>
+
+    <hr>
+
+    <img src="../media/images.jpg" >
+    <img src="../media/images.jpg" alt="dog">
+  </body>
+</html>
