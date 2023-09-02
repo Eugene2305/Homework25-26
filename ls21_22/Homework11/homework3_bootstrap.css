@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+ol li{
+    cursor: pointer;
+    color: green;
+}
+h1{
+    color: green;
+}
+img+p{
+    color: green;
+} 
+.recipe{
+    background-image: url(../media/simeynyy-borshch_sitewebukr-1000x600.jpg);
+    background-repeat: no-repeat;
+ 
+}
